@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SlideShow</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slide-images">
+            <div class="slide"><img src="img/image1.jpg" alt="image2"></div>
+            <div class="slide"><img src="img/image2.jpg" alt="image2"></div>
+            <div class="slide"><img src="img/image3.jpg" alt="image2"></div>
+            <div class="slide"><img src="img/image4.jpg" alt="image2"></div>
+            <div class="slide"><img src="img/image5.jpg" alt="image2"></div>
+            <div class="slide"><img src="img/image6.jpg" alt="image2"></div>
+        </div>
+        <div class="arrows">
+            <div class="left">
+                <i class="fas fa-chevron-left" onclick="plusClick(-1)"></i>
+            </div>
+            <div class="right">
+                <i class="fas fa-chevron-right" onclick="plusClick(1)"></i>
+            </div>
+        </div>
+        <div class="dots">
+            <div class="dot" onclick="circle(1)"></div>
+            <div class="dot" onclick="circle(2)"></div>
+            <div class="dot" onclick="circle(3)"></div>
+            <div class="dot" onclick="circle(4)"></div>
+            <div class="dot" onclick="circle(5)"></div>
+            <div class="dot" onclick="circle(6)"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
